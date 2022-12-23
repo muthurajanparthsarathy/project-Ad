@@ -37,7 +37,15 @@ if(isset($_POST['login']))
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <style>
-
+body {
+	color: #fff;
+	background: url("../images/university.jpg");
+    background-repeat:no-repeat;
+	font-family: 'Roboto', sans-serif;
+	height: 100vh; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 </style>
 </head>
 <body class="h-100">
